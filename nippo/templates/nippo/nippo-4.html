@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block head_title %}池田トピック{% endblock %}
+
+{% block content %}
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+  <div class="container" >
+    <h1 class="my-3 text-start mx-auto" style="max-width:400px">{% if not profile %}4.池田トピック{% else %}{{profile.username}}の池田トピック{% endif %}</h1>
+    <hr>
+  </div>
+</head>
+
+<body>
+    <div style="border: 2px solid #ff69b4; background: #ffffff; box-shadow:3px 3px 6px -2px #555;">
+        <div style="background: #ff69b4; color: #ffffff; padding: 7px 15px 1px 15px;">
+                <p><font size="5">池田糖化のHPに掲載されている「田中 大貴」他社へヘッドハンティングされ退職</font></p> </div>
+            <div style="padding: 15px;">
+                <a href="https://jp.linkedin.com/in/%E5%A4%A7%E8%B2%B4-%E7%94%B0%E4%B8%AD-ba7a831b6" target="_blank"><font size="4">【田中大貴】</font></a>
+               
+                <p style="margin: 0;">
+                    <a href="/media/pages/tanaka.jpg" data-lightbox="group1"><img src="/media/pages/tanaka.jpg" width="400" height="300" border="2"></a>
+                   
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="border: 2px solid #ff69b4; background: #ffffff; box-shadow:3px 3px 6px -2px #555;">
+        <div style="background: #ff69b4; color: #ffffff; padding: 7px 15px 1px 15px;">
+            <p><font size="5">池田糖化東京本社の開発部門の中堅「初鹿 啓之」他社へヘッドハンティングされ退職</font></p></div>
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/pages/hatsushika.jpg" data-lightbox="group1"><img src="/media/pages/hatsushika.jpg" width="400" height="300" border="2"></a>
+                
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="border: 2px solid #ff69b4; background: #ffffff; box-shadow:3px 3px 6px -2px #555;">
+        <div style="background: #ff69b4; color: #ffffff; padding: 7px 15px 1px 15px;">
+            <p><font size="5">池田糖化人事部「山岡 弘典」副部長より部長へ昇進</font></p></div>
+            <div style="padding: 15px;">
+                <a href="https://jp.linkedin.com/in/%E5%BC%98%E5%85%B8-%E5%B1%B1%E5%B2%A1-45777316a" target="_blank"><font size="4">【山岡弘典】</font></a>
+                <p style="margin: 0;">
+                    <a href="/media/pages/yamaoka.jpg" data-lightbox="group1"><img src="/media/pages/yamaoka.jpg" width="400" height="300" border="2"></a>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    
+
+
+    <div style="text-align: center">
+        <p style="background-color:#fce9ea">
+            <font  size="6" color = "red">随時更新中です。</font>
+     </div>
+
+</body>
+
+{% endblock %}
